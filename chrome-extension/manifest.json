@@ -1,0 +1,24 @@
+{
+	"name": "Copy link as markdown",
+	"version": "0.1.0",
+	"manifest_version": 2,
+
+	"description": "リンクをマークダウン書式でコピーする右クリックメニューを作成",
+
+	"icons": {
+		"128": "icon/icon.png"
+	},
+
+	"permissions": [
+		"contextMenus",
+		"notifications",
+		"activeTab"
+	],
+
+	"background": {
+		"persistent": false,
+		"scripts": [
+			"background.js"
+		]
+	}
+}
